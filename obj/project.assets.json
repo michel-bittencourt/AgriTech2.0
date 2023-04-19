@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTech2.0\\AgriTech2.0\\AgriTech2.0.csproj",
-      "projectName": "AgriTech2.0",
-      "projectPath": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTech2.0\\AgriTech2.0\\AgriTech2.0.csproj",
+      "projectUniqueName": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTechPlus\\AgriTechPlus.csproj",
+      "projectName": "AgriTechPlus",
+      "projectPath": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTechPlus\\AgriTechPlus.csproj",
       "packagesPath": "C:\\Users\\Michel_Bittencourt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTech2.0\\AgriTech2.0\\obj\\",
+      "outputPath": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTechPlus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Michel_Bittencourt\\AppData\\Roaming\\NuGet\\NuGet.Config",
