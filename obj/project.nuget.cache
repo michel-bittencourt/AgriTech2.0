@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Gq9lUdKDyCsV+0QTY3WkpFPgBuKz0H+57+vgKRRkgiVzf8QwA+6Wzc7r/KvwCyzSal955v6+O9h+F9IQIYONHA==",
+  "dgSpecHash": "AsJmDZde6TtoHQuizc1I8U2PWsWz+9rth3VxiW0idPXdr9QP3asBSXRBsKg2IeCHd64MDvjNA3hyjczoj+281w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Michel_Bittencourt\\Desktop\\PROJETOS\\AgriTechPlus\\AgriTechPlus.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Michel_Bittencourt\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\Michel_Bittencourt\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Michel_Bittencourt\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Michel_Bittencourt\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
