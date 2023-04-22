@@ -5,9 +5,9 @@ namespace AgriTechPlus.Models.Validations;
 
 public class EntityValidator : Notifiable<Notification> //Usando Flunt
 {
-    public Contract<Entity> ValidarEntity(Guid id, string loginUsuario, string nomeUsuario, DateTime tempoAtual, string ipUsuario, string gatewayUsuario)
+    public Contract<EntityModel> ValidarEntity(Guid id, string loginUsuario, string nomeUsuario, DateTime tempoAtual, string ipUsuario, string gatewayUsuario)
     {
-        var contrato = new Contract<Entity>();
+        var contrato = new Contract<EntityModel>();
 
         contrato.IsNotNullOrEmpty(id.ToString(), "Id não pode ser nulo ou vazio.")
         .IsNotNullOrEmpty(loginUsuario, "Login do usuário não pode ser nulo ou vazio.")

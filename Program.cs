@@ -1,6 +1,10 @@
+using AgriTechPlus.Controllers.Composicao;
+using AgriTechPlus.Infra.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddSqlServer<ApplicationDbContext>(builder.Configuration["ConnectionString:DataBase"]);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -14,5 +18,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapMethods(ComposicaoPost.Template, ComposicaoPost.Methods, ComposicaoPost.Handle);
 
 app.Run();

@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AgriTechPlus.Infra.Data.OnModelCreating;
 
-public class OnModelCreatingAduboModel : DbContext
+public class OnModelCreatingAdubo
 {
-    protected override void OnModelCreating(ModelBuilder builder)
+    public static void Configure(ModelBuilder builder)
     {
         builder.Entity<AduboModel>()
             .Property(x => x.Id).IsRequired();

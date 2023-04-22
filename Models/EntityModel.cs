@@ -5,10 +5,10 @@ using System;
 using System.ComponentModel.DataAnnotations;
 
 //Abstract indica que essa classe nao pode ser instanciada diretamente, somente pode ser herdada por outras classes
-public abstract class Entity
+public abstract class EntityModel
 {
     //Gera um novo Guid global para cada instancia da classe.
-    public Entity()
+    public EntityModel()
     {
         Id = Guid.NewGuid();
     }
@@ -25,7 +25,7 @@ public abstract class Entity
     public string GatewayUsuario { get; private set; }
 
     //Construtor
-    public Entity(Guid id, string loginUsuario, string nomeUsuario, DateTime tempoAtual, string ipUsuario, string gatewayUsuario)
+    public EntityModel(Guid id, string loginUsuario, string nomeUsuario, DateTime tempoAtual, string ipUsuario, string gatewayUsuario)
     {
         Id = id;
         LoginUsuario = loginUsuario;

@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EditorConfigFiles Remove="C:\Users\Michel_Bittencourt\Desktop\PROJETOS\AgriTechPlus\.editorconfig" />
   </ItemGroup>
 
