@@ -1,6 +1,6 @@
 ﻿namespace AgriTechPlus.Models;
 
-public class ComponentesModel : EntityModel
+public class ComponentesModel : Entity
 {
     public string Tipo { get; set; }
     public string Nome { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace AgriTechPlus.Models;
 
-public class AduboModel : EntityModel
+public class AduboModel : Entity
 {
     public string Nome { get; set; }
     public ICollection<ComponentesModel>? Componentes { get; set; } = new List<ComponentesModel>();

@@ -2,14 +2,14 @@
 
 namespace AgriTechPlus.Models;
 
-public class ComposicaoModel : EntityModel
+public class ComposicaoModel : Entity
 {
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public string? ObservacaoGeral { get; set; }
 
     public ComposicaoModel() { }
-    public ComposicaoModel(string nome, string descricao, string observacaoGeral)
+    public ComposicaoModel(Guid id, string loginUsuario, string nomeUsuario, DateTime tempoAtual, string ipUsuario, string gatewayUsuario, string nome, string descricao, string observacaoGeral) : base(id, loginUsuario, nomeUsuario, tempoAtual)
     {
         Nome = nome;
         Descricao = descricao;
